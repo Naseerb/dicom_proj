@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // REST routes
 app.use('/api', dicomRoutes);
 
-const MONGO_URI = process.env.MONGO_URI || 'your-default-mongo-uri';
+const MONGO_URI = process.env.MONGO_URI || 'default-mongo-uri';
 
 // Apollo Server Integration
 async function startApolloServer() {
