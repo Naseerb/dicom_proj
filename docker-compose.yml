@@ -5,7 +5,7 @@ services:
     ports:
       - "5005:5005"
     environment:
-      - MONGO_URI=mongodb://mongodb:27017/your_database
+      - MONGO_URI=mongodb://mongodb:27017/my_db
     depends_on:
       - mongodb
 
